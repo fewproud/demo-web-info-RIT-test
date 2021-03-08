@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1615170782037"
+    createdUser="Administrator" id="6ad5bd89:1780f9a736f:-7ebb"
+    selfDescribing="localhost (127.0.0.1) - System Statistics (default)"
+    type="probe_resource" updatedTimestamp="1615170782037"
+    updatedUser="Administrator" version="1.0">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig defaultFlag="true" name="default"
+        physicalResourceID="6ad5bd89:1780f9a736f:-7ec1" probeID="plugin.custom.SysStat">
+        <SysStatDatasource allProcesses="true" configuration="default"/>
+    </resourceConfig>
+</editableResource>
