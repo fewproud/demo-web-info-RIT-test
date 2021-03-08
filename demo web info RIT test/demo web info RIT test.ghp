@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<_c buildID="I20201208_1730" certificateAuthority="KEY_1024_BITS"
+    comments="Project created on March 8, 2021" creationVersion="10.1.2"
+    domain="default" extDocPrefix="" name="demo web info RIT test"
+    owner="Administrator" rulesCacheUri="%%PROJECT/ROOT%%Rules" uuid="00000178-0f9a-718b-0000-f30e1bb573a0">
+    <rootEnvironmentConfig isOverridingSecretsNamespace="false" overridingSecretsNamespace=""/>
+    <dateTimeConfig date="yyyy/MM/dd" dateTime="dd-MMM-yyyy HH:mm:ss" time="HH:mm:ss.SSS"/>
+    <serverSettings ghRepositoryURL="https://localhost:5443/RTCP"
+        trustSource="INBUILT_CA" trustStorePath="">
+        <dbConnectionParameters maxConnections="5" poolName="DefaultPoolName">
+            <connectionParams ZOSEnv="false"
+                dpsHost="http://&lt;hostname>:&lt;port>/api/v1/profile"
+                dpsPass="#com.ghc.1!da9e" dpsUser="" driverClass=""
+                password="#com.ghc.1!98f2" schema="" url=""
+                useSsl="false" user="">
+                <dpsSsl useSsl="false"/>
+                <stubSettings maxProcCallCount="10000"
+                    maxResultSetRowCount="10000" maxRowCount="10000"
+                    password="#com.ghc.1!739a"
+                    procedureLearningBehaviour="1" schema="" url=""
+                    useIntegratedDB="true" useSsl="false" user=""/>
+                <storedProcedureFilter catalogFilterEnabled="false"
+                    catalogFilterPattern=""
+                    procedureFilterEnabled="false"
+                    procedureFilterPattern="" schemaFilterEnabled="true"
+                    schemaFilterPattern=""
+                    storedProceduresRetrievalEnabled="false" useConnectionUsername="true"/>
+                <timestampFormatting timestampFormatZero="false"
+                    timestampFormattingEnabled="false" timestampPrecision="9"/>
+            </connectionParams>
+        </dbConnectionParameters>
+        <automationServer enabled="true" hostname="rtas1.fyre.ibm.com"
+            port="443" projectId="-1"
+            projectName="--No Project Selected--" publishResults="false"
+            trustSource="TRUST_ALL" trustStorePassword="#com.ghc.1!c3df" trustStorePath=""/>
+    </serverSettings>
+    <permissionsSettings autoLogin="true" host="MYBRIDGE1"
+        permFactId="ldap.permissions.factory.none" port="389" pswd="dR9wW6oLqmcwvldtiUbbuv2whZGwKQXWoP2rp/3XfF8=$6Ee7hRD+raHKRkPDX2VumgMvbDSSbrL3s8reziNgAok="/>
+</_c>
