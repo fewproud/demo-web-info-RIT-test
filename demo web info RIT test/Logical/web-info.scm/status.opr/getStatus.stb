@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <editableResource createdTimestamp="1615171620178"
     createdUser="Administrator" id="6ad5bd89:1780f9a736f:-7c68"
-    type="stub_resource" updatedTimestamp="1615172489693"
+    type="stub_resource" updatedTimestamp="1615256114223"
     updatedUser="Administrator" version="1.1">
     <loggingConfiguration debug="true" writeStubEventsToDB="true"/>
     <resourceConfig description="" name="">
@@ -211,7 +211,7 @@
                                     <fieldActionGroup>
                                     <fieldAction type="0">
                                     <fieldAction
-                                    exp="virtualized-server-A version 1.0.5.vir stable (QA)" type="0"/>
+                                    exp="virtualized-server-A version 1.0.5.2.vir stable (QA)" type="0"/>
                                     </fieldAction>
                                     </fieldActionGroup>
                                     </_c>
